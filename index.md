@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: index.html
+layout: index
 filename: /
 ---
 
