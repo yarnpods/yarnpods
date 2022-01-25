@@ -1,1 +1,4 @@
-theme: jekyll-theme-cayman
+title: "Yarn Pods"
+baseurl: "https://yarnpods.com"
+author: "@screem"
+authorurl: "https://yarn.yarnpods.com/~screem"
