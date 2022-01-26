@@ -1,0 +1,27 @@
+<form class="need-validation" novalidate>
+    <div class="row row-cols-1">
+        <div class="col">
+            <input type="email" class="form-control" id="validationCustom1" placeholder="Your email address" required>
+            <div class="valid-feedback">Looks good!</div>
+            <div class="invalid feedback">Please enter a valid email address.</div>
+        </div>
+        <div class="col">
+            <select class="form-select" id="validationCustom2" required>
+                <option selected disabled value="">Enquiry category...</option>
+                <option>New pod hosting</option>
+                <option>Existing pod support</option>
+                <option>Other</option>
+            </select>
+            <div class="valid-feedback">Looks good!</div>
+            <div class="invalid-feedback">Please choose a category.</div>
+        </div>
+        <div class="col">
+            <textarea id="validationCustom3" placeholder="Enter your enquiry..." required></textarea>
+            <div class="valid-feedback">Looks good!</div>
+            <div class="invalid-feedback">Please enter your enquiry.</div>
+        </div>
+        <div class="col">
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+    </div>
+</form>
