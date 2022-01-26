@@ -2,17 +2,10 @@
 {%- include custom.css -%}
   </style></head>
 <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
-
-    <header class="page-header" role="banner">
-        <h1 class="project-name">{{ site.title }}</h1>
-        
-        
-    </header>
+    {%- include header.html -%}
 
     <main id="content" class="main-content" role="main">
         {{ content }}
-
 
         {%- include footer.html -%}
     </main>
