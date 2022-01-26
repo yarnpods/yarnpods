@@ -1,4 +1,4 @@
-<form class="need-validation" novalidate>
+<form id="enquire" class="need-validation" novalidate>
     <div class="row row-cols-1">
         <div class="col">
             <input type="email" class="form-control" id="validationCustom1" placeholder="Your email address" required>
@@ -7,7 +7,7 @@
         </div>
         <div class="col">
             <select class="form-select" id="validationCustom2" required>
-                <option selected disabled value="" class="text-muted">Enquiry category...</option>
+                <option selected disabled value="">Choose enquiry category...</option>
                 <option>New pod hosting</option>
                 <option>Existing pod support</option>
                 <option>Other</option>
@@ -16,7 +16,7 @@
             <div class="invalid-feedback">Please choose a category.</div>
         </div>
         <div class="col">
-            <textarea id="validationTextarea" placeholder="Enter your enquiry..." required></textarea>
+            <textarea class="form-control" id="validationTextarea" placeholder="Enter your enquiry..." required></textarea>
             <div class="valid-feedback">Looks good!</div>
             <div class="invalid-feedback">Please enter your enquiry.</div>
         </div>
