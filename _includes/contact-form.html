@@ -1,12 +1,12 @@
 <form method="post" action="https://forms.un-static.com/forms/84b178a0a1de3080a9780175d78b192e9817ac0c" id="enquire" class="need-validation" novalidate>
     <div class="row row-cols-1">
         <div class="col">
-            <input type="email" class="form-control" id="validationCustom1" placeholder="Your email address" required>
+            <input name="email" type="email" class="form-control" id="validationCustom1" placeholder="Your email address" required>
             <div class="valid-feedback">Looks good!</div>
             <div class="invalid-feedback">Please enter a valid email address.</div>
         </div>
         <div class="col">
-            <select class="form-select" id="validationCustom2" required>
+            <select name="subject" class="form-select" id="validationCustom2" required>
                 <option selected disabled value="">Choose enquiry category...</option>
                 <option>New pod hosting</option>
                 <option>Existing pod support</option>
@@ -16,7 +16,7 @@
             <div class="invalid-feedback">Please choose a category.</div>
         </div>
         <div class="col">
-            <textarea class="form-control" id="validationTextarea" placeholder="Enter your enquiry..." required></textarea>
+            <textarea name="body" class="form-control" id="validationTextarea" placeholder="Enter your enquiry..." required></textarea>
             <div class="valid-feedback">Looks good!</div>
             <div class="invalid-feedback">Please enter your enquiry.</div>
         </div>
